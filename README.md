@@ -9,7 +9,7 @@ You must run these commands to deploy the project successfully
 - php artisan jwt:secret
 - php artisan db:seed
 
-After run last command, you will have a user to access through MoneyXChange Landing Project:
+After run last command, you will have a user to access through [MoneyXChange Landing Project](https://github.com/ieguiluz/moneyexchange):
 
 - email: testy@moneyxchange.io
 - password: secret

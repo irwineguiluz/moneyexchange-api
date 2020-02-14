@@ -18,7 +18,7 @@ class CurrenciesFeedController extends Controller
                 'from' => 'cache',
             ];
         } else {
-            $expires_at = Carbon::now()->addMinutes(1);
+            $expires_at = Carbon::now()->addMinutes(10);
             $rates_feed = Zttp::get(env('EXCHANGERATES_FEED_API') . 'latest?symbols=EUR&base=USD');
             $response = [
                 'rates' => $rates_feed->body(),

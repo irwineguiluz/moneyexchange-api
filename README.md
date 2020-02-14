@@ -1,5 +1,5 @@
 ## Deployment
-- Copy .env.example to another new file, call it .env
+- Copy .env.example to another new file, call it .env. Later, you have to create your database and set it in the file created previously.
 
 You must run these commands to deploy the project successfully
 

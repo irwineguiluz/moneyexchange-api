@@ -1,5 +1,5 @@
 ## Deployment
-- Copy .env.example to another new file, put it .env
+- Copy .env.example to another new file, call it .env
 
 You must run these commands to deploy the project successfully
 
